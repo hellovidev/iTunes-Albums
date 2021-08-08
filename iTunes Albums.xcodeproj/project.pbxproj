@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		5F165C5926C003C40097C50E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C5826C003C40097C50E /* AppDelegate.swift */; };
 		5F165C5B26C003C40097C50E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C5A26C003C40097C50E /* SceneDelegate.swift */; };
-		5F165C5D26C003C40097C50E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C5C26C003C40097C50E /* ViewController.swift */; };
+		5F165C5D26C003C40097C50E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C5C26C003C40097C50E /* FeedViewController.swift */; };
 		5F165C6026C003C40097C50E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F165C5E26C003C40097C50E /* Main.storyboard */; };
 		5F165C6226C003C70097C50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F165C6126C003C70097C50E /* Assets.xcassets */; };
 		5F165C6526C003C70097C50E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F165C6326C003C70097C50E /* LaunchScreen.storyboard */; };
+		5F165C7226C0104D0097C50E /* AlbumEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C7126C0104D0097C50E /* AlbumEntity.swift */; };
+		5F165C7626C011710097C50E /* FeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C7526C011710097C50E /* FeedInteractor.swift */; };
+		5F165C7826C011850097C50E /* FeedProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C7726C011850097C50E /* FeedProtocols.swift */; };
+		5F165C7A26C011910097C50E /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C7926C011910097C50E /* FeedPresenter.swift */; };
+		5F165C7C26C011C20097C50E /* FeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C7B26C011C20097C50E /* FeedRouter.swift */; };
+		5F165C7F26C0162A0097C50E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C7E26C0162A0097C50E /* Constants.swift */; };
+		5F165C8326C0190F0097C50E /* AlbumDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C8226C0190F0097C50E /* AlbumDetailsRouter.swift */; };
+		5F165C8626C0191F0097C50E /* AlbumDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C8526C0191F0097C50E /* AlbumDetailsPresenter.swift */; };
+		5F165C8826C0192A0097C50E /* AlbumDetailsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C8726C0192A0097C50E /* AlbumDetailsProtocols.swift */; };
+		5F165C8A26C019420097C50E /* AlbumDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C8926C019420097C50E /* AlbumDetailsInteractor.swift */; };
+		5F165C8C26C019690097C50E /* AlbumDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C8B26C019690097C50E /* AlbumDetailsViewController.swift */; };
+		5F165C9026C01E870097C50E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F165C8F26C01E870097C50E /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F165C5526C003C40097C50E /* iTunes Albums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes Albums.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F165C5826C003C40097C50E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F165C5A26C003C40097C50E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F165C5C26C003C40097C50E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F165C5C26C003C40097C50E /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		5F165C5F26C003C40097C50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F165C6126C003C70097C50E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F165C6426C003C70097C50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F165C6626C003C70097C50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F165C7126C0104D0097C50E /* AlbumEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumEntity.swift; sourceTree = "<group>"; };
+		5F165C7526C011710097C50E /* FeedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedInteractor.swift; sourceTree = "<group>"; };
+		5F165C7726C011850097C50E /* FeedProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedProtocols.swift; sourceTree = "<group>"; };
+		5F165C7926C011910097C50E /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
+		5F165C7B26C011C20097C50E /* FeedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRouter.swift; sourceTree = "<group>"; };
+		5F165C7E26C0162A0097C50E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5F165C8226C0190F0097C50E /* AlbumDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsRouter.swift; sourceTree = "<group>"; };
+		5F165C8526C0191F0097C50E /* AlbumDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsPresenter.swift; sourceTree = "<group>"; };
+		5F165C8726C0192A0097C50E /* AlbumDetailsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsProtocols.swift; sourceTree = "<group>"; };
+		5F165C8926C019420097C50E /* AlbumDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsInteractor.swift; sourceTree = "<group>"; };
+		5F165C8B26C019690097C50E /* AlbumDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewController.swift; sourceTree = "<group>"; };
+		5F165C8F26C01E870097C50E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,99 @@
 		5F165C5726C003C40097C50E /* iTunes Albums */ = {
 			isa = PBXGroup;
 			children = (
-				5F165C5826C003C40097C50E /* AppDelegate.swift */,
-				5F165C5A26C003C40097C50E /* SceneDelegate.swift */,
-				5F165C5C26C003C40097C50E /* ViewController.swift */,
-				5F165C5E26C003C40097C50E /* Main.storyboard */,
-				5F165C6126C003C70097C50E /* Assets.xcassets */,
-				5F165C6326C003C70097C50E /* LaunchScreen.storyboard */,
-				5F165C6626C003C70097C50E /* Info.plist */,
+				5F165C7026C00FC10097C50E /* Common Utils */,
+				5F165C6E26C004430097C50E /* App Assets */,
+				5F165C6D26C0043B0097C50E /* App Modules */,
+				5F165C6C26C004320097C50E /* App Settings */,
+				5F165C7426C010FA0097C50E /* App UIs */,
 			);
 			path = "iTunes Albums";
+			sourceTree = "<group>";
+		};
+		5F165C6C26C004320097C50E /* App Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5F165C5826C003C40097C50E /* AppDelegate.swift */,
+				5F165C5A26C003C40097C50E /* SceneDelegate.swift */,
+				5F165C6626C003C70097C50E /* Info.plist */,
+			);
+			path = "App Settings";
+			sourceTree = "<group>";
+		};
+		5F165C6D26C0043B0097C50E /* App Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5F165C8026C018DE0097C50E /* Album Details Module */,
+				5F165C6F26C00F8A0097C50E /* Feed Module */,
+			);
+			path = "App Modules";
+			sourceTree = "<group>";
+		};
+		5F165C6E26C004430097C50E /* App Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5F165C6126C003C70097C50E /* Assets.xcassets */,
+			);
+			path = "App Assets";
+			sourceTree = "<group>";
+		};
+		5F165C6F26C00F8A0097C50E /* Feed Module */ = {
+			isa = PBXGroup;
+			children = (
+				5F165C7126C0104D0097C50E /* AlbumEntity.swift */,
+				5F165C5C26C003C40097C50E /* FeedViewController.swift */,
+				5F165C7526C011710097C50E /* FeedInteractor.swift */,
+				5F165C7926C011910097C50E /* FeedPresenter.swift */,
+				5F165C7B26C011C20097C50E /* FeedRouter.swift */,
+				5F165C7726C011850097C50E /* FeedProtocols.swift */,
+			);
+			path = "Feed Module";
+			sourceTree = "<group>";
+		};
+		5F165C7026C00FC10097C50E /* Common Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F165C7D26C0161B0097C50E /* Enums */,
+				5F165C7326C010BA0097C50E /* Services */,
+			);
+			path = "Common Utils";
+			sourceTree = "<group>";
+		};
+		5F165C7326C010BA0097C50E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5F165C8F26C01E870097C50E /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5F165C7426C010FA0097C50E /* App UIs */ = {
+			isa = PBXGroup;
+			children = (
+				5F165C5E26C003C40097C50E /* Main.storyboard */,
+				5F165C6326C003C70097C50E /* LaunchScreen.storyboard */,
+			);
+			path = "App UIs";
+			sourceTree = "<group>";
+		};
+		5F165C7D26C0161B0097C50E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5F165C7E26C0162A0097C50E /* Constants.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		5F165C8026C018DE0097C50E /* Album Details Module */ = {
+			isa = PBXGroup;
+			children = (
+				5F165C8226C0190F0097C50E /* AlbumDetailsRouter.swift */,
+				5F165C8526C0191F0097C50E /* AlbumDetailsPresenter.swift */,
+				5F165C8726C0192A0097C50E /* AlbumDetailsProtocols.swift */,
+				5F165C8926C019420097C50E /* AlbumDetailsInteractor.swift */,
+				5F165C8B26C019690097C50E /* AlbumDetailsViewController.swift */,
+			);
+			path = "Album Details Module";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +245,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F165C5D26C003C40097C50E /* ViewController.swift in Sources */,
+				5F165C7C26C011C20097C50E /* FeedRouter.swift in Sources */,
+				5F165C8326C0190F0097C50E /* AlbumDetailsRouter.swift in Sources */,
+				5F165C5D26C003C40097C50E /* FeedViewController.swift in Sources */,
+				5F165C7626C011710097C50E /* FeedInteractor.swift in Sources */,
+				5F165C8A26C019420097C50E /* AlbumDetailsInteractor.swift in Sources */,
 				5F165C5926C003C40097C50E /* AppDelegate.swift in Sources */,
+				5F165C8C26C019690097C50E /* AlbumDetailsViewController.swift in Sources */,
+				5F165C7826C011850097C50E /* FeedProtocols.swift in Sources */,
+				5F165C7226C0104D0097C50E /* AlbumEntity.swift in Sources */,
+				5F165C7A26C011910097C50E /* FeedPresenter.swift in Sources */,
+				5F165C9026C01E870097C50E /* NetworkService.swift in Sources */,
+				5F165C8626C0191F0097C50E /* AlbumDetailsPresenter.swift in Sources */,
 				5F165C5B26C003C40097C50E /* SceneDelegate.swift in Sources */,
+				5F165C8826C0192A0097C50E /* AlbumDetailsProtocols.swift in Sources */,
+				5F165C7F26C0162A0097C50E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,7 +408,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z28LM9PLJM;
-				INFOPLIST_FILE = "iTunes Albums/Info.plist";
+				INFOPLIST_FILE = "iTunes Albums/App Settings/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +417,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hellovidev.iTunes-Albums";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +428,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z28LM9PLJM;
-				INFOPLIST_FILE = "iTunes Albums/Info.plist";
+				INFOPLIST_FILE = "iTunes Albums/App Settings/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hellovidev.iTunes-Albums";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
